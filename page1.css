@@ -1,4 +1,4 @@
-/* PAGE 1 STYLING */
+
 
 #page1 {
   height: 100vh;
@@ -21,7 +21,7 @@
 
 .intro-box:hover {
   box-shadow: 0 0 30px hotpink, 0 0 60px pink;
-  background-color: rgba(255, 192, 203, 0.05); /* light pink tint */
+  background-color: rgba(255, 192, 203, 0.05); 
   transform: scale(1.03);
 }
 
