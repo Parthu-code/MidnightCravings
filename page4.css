@@ -1,0 +1,79 @@
+#page5 {
+  background: linear-gradient(to right, #1e1e2f, #2a2a40);
+  color: #fdfdfd;
+  padding: 60px 20px;
+  font-family: 'Segoe UI', sans-serif;
+  min-height: 100vh;
+}
+
+.therapy-container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+.therapy-container h1 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+  color: #ff77aa;
+  text-shadow: 1px 1px 10px #ff77aa55;
+}
+
+.therapy-box {
+  background: #2f2f3f;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 0 15px #00000055;
+}
+
+.therapy-box h2 {
+  margin-bottom: 10px;
+  color: #ffc0cb;
+}
+
+textarea {
+  width: 90%;
+  height: 100px;
+  background: #1a1a1a;
+  color: #fff;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 10px;
+  resize: none;
+  font-size: 1rem;
+  outline: none;
+}
+
+textarea::placeholder {
+  color: #aaa;
+}
+
+.send-btn {
+  margin-top: 30px;
+  background: #ff4081;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 5px 15px #ff408155;
+}
+
+.send-btn:hover {
+  background: #ff77aa;
+  box-shadow: 0 8px 20px #ff77aa88;
+}
+
+.motivational-quotes {
+  margin-top: 40px;
+  font-size: 1rem;
+  color: #ccc;
+}
+
+.motivational-quotes p {
+  margin: 10px 0;
+  font-style: italic;
+}
